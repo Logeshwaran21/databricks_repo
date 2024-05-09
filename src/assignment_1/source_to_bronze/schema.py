@@ -1,5 +1,5 @@
 # Databricks notebook source
-from pyspark.sql.session import StructType
+from pyspark.sql.types import *
 # Define schemas using StructType and StructField
 
 employee_schema = StructType([
